@@ -1,13 +1,4 @@
-<html>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<head>
-		<title>Opinion Mining Demo</title>
-		<!--<link rel = Stylesheet type = "text/css" href = "/home/ubuntu/NewAWS_files/testcss.css">-->
-		<style>
-		
-			h1 {
+h1 {
 	text-align: center;
 	font-size: 150%;
 }
@@ -65,7 +56,6 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #ccc;
 	display: block;
-	font-size:2em;
 	width: 100%
 }
 
@@ -138,33 +128,3 @@ input[type=submit] {
 .inputfile + label:hover {
     background-color: #cac;
 }
-		
-		</style>
-	</head>
-
-	<body>
-		<section id = "banner"><h1>Opinion Mining Demo ~70% Accurate</h1></section>
-
-		<section>
-			<div class="row">
-				<div class="col-8"> 
-					<form method="post" action="/">
-					
-						<textarea id = "textIn" rows = "8" cols = "60" name='blog' placeholder = "Insert Blog Here"></textarea>
-				</div>
-				
-				<div class="col-4">
-                         
-					<input type='submit' value='Submit'>
-			
-				</div>
-					</form>
-				
-			</div>
-			
-			<p>{{message}}</p>
-		</section>
-
-	</body>
-
-</html>
